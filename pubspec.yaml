@@ -1,0 +1,48 @@
+name: product_studio_ai
+description: Transform product photos into professional studio-style marketing images using AI
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^3.0.3
+
+  # Networking
+  dio: ^5.8.0
+
+  # Image Handling
+  image_picker: ^1.1.2
+  image_cropper: ^11.0.0
+
+  # Environment Variables
+  flutter_dotenv: ^6.0.0
+
+  # UI Components
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+
+  # Storage & Sharing
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+  image_gallery_saver: ^2.0.3
+
+  # Utilities
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/
