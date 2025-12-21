@@ -63,7 +63,7 @@ class GeminiService {
 
       // Make API call
       final response = await _dio.post(
-        '/models/gemini-1.5-flash:generateContent',
+        '/models/gemini-2.5-flash-image:generateContent',
         queryParameters: {'key': _apiKey},
         data: requestBody,
         options: Options(

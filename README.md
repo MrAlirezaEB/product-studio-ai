@@ -1,6 +1,6 @@
 # Product Studio AI
 
-Transform product photos into professional studio-style marketing images using AI (Gemini 3 Pro Image / "Nano Banana Pro").
+Transform product photos into professional studio-style marketing images using AI (Nano Banana Pro 3).
 
 ## Features
 
