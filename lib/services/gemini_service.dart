@@ -84,12 +84,8 @@ class GeminiService {
           if (content != null && content['parts'] != null) {
             for (var part in content['parts']) {
               // Check if the part contains inline image data
-              if (part['inline_data'] != null) {
-                return part['inline_data']['data'];
-              }
-              // Or check for text that might contain a URL
-              if (part['text'] != null) {
-                return part['text'];
+              if (part['inlineData'] != null) {
+                return part['inlineData']['data'];
               }
             }
           }
